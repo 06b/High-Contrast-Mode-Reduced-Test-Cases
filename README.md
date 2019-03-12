@@ -27,12 +27,23 @@ For the sake of this repo, the focus will be on True high contrast, which is alo
 >
 > — [Ref. 7](#References)
 
+## Tests
+**Tests 01 - 14:** While not a true "reduced" test case collection, this shows an example in which someone may need to set the input's background to appear transparent. These test focus on the background shorthand css property `background:`
 
- #### References
- 1. Microsoft Edge Explainers on the subject of [High Contrast](https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/master/HighContrast/explainer.md)
- 2. Paciello Group blog post titled [Windows High Contrast Mode: the limited utilitiy of -ms-high-contrast](https://developer.paciellogroup.com/blog/2016/12/windows-high-contrast-mode-the-limited-utility-of-ms-high-contrast/)
- 3. MDN web docs on [-ms-high-contrast](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/-ms-high-contrast) CSS media feature
- 4. Adrian Roselli's blog post titled [OS: High Contrast versus Inverted Colors](http://adrianroselli.com/2017/11/os-high-contrast-versus-inverted-colors.html)
- 5. [Quick Note on high contrast mode](https://www.scottohara.me/blog/2019/02/12/high-contrast-aria-and-images.html#background-images-are-mostly-ignored)
- 6. Microsoft Edge Explainers - [Ensuring Readability](https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/master/HighContrast/explainer.md#ensuring-readability)
- 7. CSS Level 5 media query w3c/csswg-draft topic [prefers-contrast: high media feature does not accurately describe the macOS/iOS state](https://github.com/w3c/csswg-drafts/issues/2943#issuecomment-452164677)
+**Tests 15 - 26:** These test are similar to Test 01 - 14 but uses `background-color` so tests 13 & 14 are not included here.
+
+
+### Versions & Environment
+
+**Operating System:** Windows 10 Pro
+ - *Version:* 1809
+ - *OS build:* 17763.348
+
+### References
+1. Microsoft Edge Explainers on the subject of [High Contrast](https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/master/HighContrast/explainer.md)
+2. Paciello Group blog post titled [Windows High Contrast Mode: the limited utilitiy of -ms-high-contrast](https://developer.paciellogroup.com/blog/2016/12/windows-high-contrast-mode-the-limited-utility-of-ms-high-contrast/)
+3. MDN web docs on [-ms-high-contrast](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/-ms-high-contrast) CSS media feature
+4. Adrian Roselli's blog post titled [OS: High Contrast versus Inverted Colors](http://adrianroselli.com/2017/11/os-high-contrast-versus-inverted-colors.html)
+5. [Quick Note on high contrast mode](https://www.scottohara.me/blog/2019/02/12/high-contrast-aria-and-images.html#background-images-are-mostly-ignored)
+6. Microsoft Edge Explainers - [Ensuring Readability](https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/master/HighContrast/explainer.md#ensuring-readability)
+7. CSS Level 5 media query w3c/csswg-draft topic [prefers-contrast: high media feature does not accurately describe the macOS/iOS state](https://github.com/w3c/csswg-drafts/issues/2943#issuecomment-452164677)
