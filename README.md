@@ -1,6 +1,6 @@
 # High Contrast Mode Reduced Test Cases
 
-Last Updated: 2019-03-12
+Last Updated: 2019-03-13
 
 ## Overview
 The following is a collection of test cases comparing different styling of inputs when High Contrast Mode is enabled.
@@ -38,6 +38,13 @@ For the sake of this repo, the focus will be on True high contrast, which is alo
 **Operating System:** Windows 10 Pro
  - *Version:* 1809
  - *OS build:* 17763.348
+ 
+ **Browsers:**
+ - Microsoft Edge 44.17763.1.0, Microsoft EdgeHTML 18.17763
+ - Microsoft Internet Explorer 11, Version: 11.379.17763.0, Update Versions: 11.0.115
+ - Firefox Quantum, Version: 65.0.2 (64-bit)
+ - Firefox ESR, Version: 52.9.2 (64-bit)
+
 
 ### References
 1. Microsoft Edge Explainers on the subject of [High Contrast](https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/master/HighContrast/explainer.md)
