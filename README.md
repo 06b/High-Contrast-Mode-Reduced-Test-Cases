@@ -46,7 +46,7 @@ For the sake of this repo, the focus will be on True high contrast, which is alo
  - Microsoft Edge 44.17763.1.0, Microsoft EdgeHTML 18.17763
  - Microsoft Internet Explorer 11, Version: 11.379.17763.0, Update Versions: 11.0.115
  - Firefox Quantum, Version: 65.0.2 (64-bit)
- - Firefox ESR, Version: 52.9.2 (64-bit)
+ - Firefox ESR, Version: 52.9.0 (64-bit)
 
 
 ### References
