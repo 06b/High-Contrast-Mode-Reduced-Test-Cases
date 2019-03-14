@@ -1,6 +1,6 @@
 # High Contrast Mode Reduced Test Cases
 
-Last Updated: 2019-03-13
+Last Updated: 2019-03-14
 
 ## Overview
 The following is a collection of test cases comparing different styling of inputs when High Contrast Mode is enabled.
@@ -32,6 +32,7 @@ For the sake of this repo, the focus will be on True high contrast, which is alo
 
 **Tests 15 - 26:** These test are similar to Test 01 - 14 but uses `background-color` so tests 13 & 14 are not included here.
 
+**Test 27:** This test is an example of Material Design Filled text fields.
 
 ### Versions & Environment
 
