@@ -34,6 +34,8 @@ For the sake of this repo, the focus will be on True high contrast, which is alo
 
 **Test 27:** This test is an example of Material Design Filled text fields.
 
+**Test 28:** Reduced test case.
+
 ### Versions & Environment
 
 **Operating System:** Windows 10 Pro
