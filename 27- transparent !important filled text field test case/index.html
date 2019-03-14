@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>High Contrast Mode Reduced Test Case</title>
+    <style>
+        *,
+        *:before,
+        *:after {
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 10px;
+            margin: 0 auto;
+            width: 90%;
+            max-width: 640px;
+        }
+
+        input {
+            /* `transparent !important;` Makes a border appear & solid black background in Firefox HCM, but not Edge or IE. */
+            /* Based on the fact the background on the page uses the background in HCM, it appears that if firefox is rendering a backplate that it's not based off of the HCM theme  */
+            background: transparent !important;
+
+            border: none;
+            position: relative;
+        }
+
+        input {
+            display: block;
+            font-size: 48px;
+            border-radius: 4px 4px 0 0;
+            width: 100%;
+            padding: 35px 5px 5px;
+            text-indent: 10px;
+        }
+
+        input+label {
+            display: block;
+            position: relative;
+            border-top: 2px solid currentColor;
+        }
+
+        input:valid,
+        input:focus+label,
+        input:valid+label,
+        input:focus+label>span,
+        input:valid+label>span {
+            color: #1867c0;
+            caret-color: #1867c0;
+        }
+
+        input:focus+label>span,
+        input:valid+label>span {
+            top: -90px;
+            font-size: 22px;
+        }
+
+        input:invalid {
+            box-shadow: none;
+        }
+
+        input+label>span {
+            position: absolute;
+            font-size: 48px;
+            top: -60px;
+            left: 10px;
+            z-index: -1;
+            transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
+        }
+
+        .box {
+            background: rgba(0, 0, 0, 0.06);
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <input type="text" id="name" required autocomplete="off" />
+        <label for="name"><span>Rival's name?</span></label>
+    </div>
+</body>
+
+</html>
