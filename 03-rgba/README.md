@@ -1,11 +1,11 @@
 # Test 03 - `background: rgba(0,0,0,0)`
+Last Updated: 2019-03-18
 
 ## Snapshots
 **Browser:** Google Chrome, Version 72.0.3626.121 (Official Build) (64-bit)
 
 ![Chrome Snapshot](/03-rgba/snapshots/GoogleChrome.png)
 ___
-
 **Browser:** Microsoft Edge 44.17763.1.0, Microsoft EdgeHTML 18.17763
 
 ![Edge Snapshot](/03-rgba/snapshots/MicrosoftEdge_HCM.png)
