@@ -50,10 +50,10 @@ For the sake of this repo, the focus will be on True high contrast, which is alo
  - Google Chrome, Version 72.0.3626.121 (Official Build) (64-bit) ¯\\_(ツ)\_/¯ - See [issue #12](https://github.com/06b/High-Contrast-Mode-Reduced-Test-Cases/issues/12)
 
 ### References
-1. Microsoft Edge Explainers on the subject of [High Contrast](https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/master/HighContrast/explainer.md)
+1. Microsoft Edge Explainers on the subject of [High Contrast](https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/master/Accessibility/HighContrast/explainer.md)
 2. Paciello Group blog post titled [Windows High Contrast Mode: the limited utilitiy of -ms-high-contrast](https://developer.paciellogroup.com/blog/2016/12/windows-high-contrast-mode-the-limited-utility-of-ms-high-contrast/)
 3. MDN web docs on [-ms-high-contrast](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/-ms-high-contrast) CSS media feature
 4. Adrian Roselli's blog post titled [OS: High Contrast versus Inverted Colors](http://adrianroselli.com/2017/11/os-high-contrast-versus-inverted-colors.html)
 5. [Quick Note on high contrast mode](https://www.scottohara.me/blog/2019/02/12/high-contrast-aria-and-images.html#background-images-are-mostly-ignored)
-6. Microsoft Edge Explainers - [Ensuring Readability](https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/master/HighContrast/explainer.md#ensuring-readability)
+6. Microsoft Edge Explainers - [Ensuring Readability](https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/master/Accessibility/HighContrast/explainer.md#ensuring-readability)
 7. CSS Level 5 media query w3c/csswg-draft topic [prefers-contrast: high media feature does not accurately describe the macOS/iOS state](https://github.com/w3c/csswg-drafts/issues/2943#issuecomment-452164677)
